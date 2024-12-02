@@ -26,11 +26,11 @@ url = f"https://drive.google.com/uc?id={file_id}"
 r = requests.get(url)
 
 # Salvar o conteúdo como um arquivo CSV
-with open('pacientes_geral_transformed.csv', 'wb') as f:
+with open('pacigeral_12_23_transformed.csv', 'wb') as f:
     f.write(r.content)
 
 # Agora, podemos carregar o arquivo CSV com o pandas
-df = pd.read_csv('pacientes_geral_transformed.csv')
+df = pd.read_csv('pacigeral_12_23_transformed.csv', sep=';')
 
 # Exibir os primeiros registros do dataframe
 print(df.head())
