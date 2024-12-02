@@ -1,4 +1,10 @@
 folium
-streamlit
 pandas
+plotly
+streamlit
+streamlit-folium
+Pillow
 matplotlib
+seaborn
+lifelines
+pdfkit
