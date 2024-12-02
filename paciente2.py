@@ -25,15 +25,15 @@ url = f"https://drive.google.com/uc?id={file_id}"
 # Fazer o download do arquivo
 r = requests.get(url)
 
-# Salvar o conteúdo como um arquivo CSV
-with open('pacigeral_12_23_transformed.csv', 'wb') as f:
+# Salvar o conteúdo como um arquivo CSV com o nome 'pacientes_geral'
+pacientes_geral = 'pacientes_geral.csv'  # Nome da variável com o caminho do arquivo
+
+# Salvar o arquivo localmente
+with open(pacientes_geral, 'wb') as f:
     f.write(r.content)
 
 # Agora, podemos carregar o arquivo CSV com o pandas
-df = pd.read_csv('pacigeral_12_23_transformed.csv', sep=';')
-
-# Exibir os primeiros registros do dataframe
-print(df.head())
+df = pd.read_csv(pacientes_geral, sep=';')
 
 
 st.set_page_config(page_title = 'Dashboard de Análise de Dados', page_icon =":medical_symbol:", layout="wide")
