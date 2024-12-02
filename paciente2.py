@@ -16,12 +16,24 @@ from lifelines import KaplanMeierFitter
 from lifelines import KaplanMeierFitter
 from lifelines.plotting import add_at_risk_counts
 import pdfkit
+import requests
 
+# URL para baixar o arquivo CSV
+file_id = '1-rPhBKe1rHkov8K1xhK8iE9fcscl4y4d'
+url = f"https://drive.google.com/uc?id={file_id}"
 
+# Fazer o download do arquivo
+r = requests.get(url)
 
-# Caminho para os arquivos
-pacientes_geral = "G:\Meu Drive\Iniciação Científica\pacigeral_12_23_transformed.csv"
-excel_path = "G:\Meu Drive\Iniciação Científica\RELATORIO_DTB_BRASIL_MUNICIPIO.xlsx"
+# Salvar o conteúdo como um arquivo CSV
+with open('pacientes_geral_transformed.csv', 'wb') as f:
+    f.write(r.content)
+
+# Agora, podemos carregar o arquivo CSV com o pandas
+df = pd.read_csv('pacientes_geral_transformed.csv')
+
+# Exibir os primeiros registros do dataframe
+print(df.head())
 
 
 st.set_page_config(page_title = 'Dashboard de Análise de Dados', page_icon =":medical_symbol:", layout="wide")
