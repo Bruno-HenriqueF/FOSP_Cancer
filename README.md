@@ -64,35 +64,18 @@ pillow
 
 streamlit-folium
 
-Como Executar
-Clone o repositório e acesse a pasta:
 
-bash
-git clone <repo-url>
-cd <repo>
-Coloque os arquivos de dados nos caminhos esperados:
-
-pacigeral_12_23_transformed_2024.csv
-
-RELATORIO_DTB_BRASIL_MUNICIPIO.xlsx
-
-Imagens para mock-ups (opcional)
-
-Execute o aplicativo Streamlit:
-
-bash
-streamlit run <nome_do_arquivo>.py
-Estrutura das Páginas
-Visão Geral:
+## Estrutura das Páginas
+### Visão Geral:
 Métricas principais, mapa interativo, gráficos de casos por sexo, tipo de câncer, faixa etária, motivos de não tratamento, tipos de tratamento e situação final dos pacientes.
 
-Gestão de Dados:
+### Gestão de Dados:
 Análise temporal dos registros, frequência de especialidades, tabelas de percentuais de diagnósticos.
 
-Curva de Sobrevivência:
+### Curva de Sobrevivência:
 Seleção e análise de subgrupos de câncer, geração de curvas Kaplan-Meier e visualização de mock-ups de modelos de pesquisa.
 
-Personalização e Estilo
+## Personalização e Estilo
 Customização visual via CSS externo (style.css).
 
 Logotipos institucionais e identidade visual do Governo do Estado de SP e FOSP.
