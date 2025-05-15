@@ -1,8 +1,8 @@
 # FOSP_Cancer
-Casos de Câncer no Estado de São Paulo (FOSP) - Dashboard Interativo
+## Casos de Câncer no Estado de São Paulo (FOSP) - Dashboard Interativo
 Este projeto é um dashboard interativo desenvolvido em Python com Streamlit para análise exploratória, visualização e estudo de sobrevivência de casos de câncer no estado de São Paulo, utilizando dados da Fundação Oncocentro de São Paulo (FOSP).
 
-Funcionalidades Principais
+### Funcionalidades Principais
 Visualização Interativa:
 
 Filtros dinâmicos por DRS, município, tipo de câncer, hospital e período.
@@ -13,7 +13,7 @@ Mapa coroplético dos casos por município (Folium).
 
 Gráficos de barras, linhas, pizza e tornado para diferentes aspectos dos dados (Plotly).
 
-Gestão de Dados:
+### Gestão de Dados:
 
 Análise de registros por mês e hospital.
 
@@ -21,7 +21,7 @@ Frequência de especialidades.
 
 Tabelas de percentuais e cruzamentos por faixa de ano e tipo de diagnóstico.
 
-Curvas de Sobrevivência:
+### Curvas de Sobrevivência:
 
 Análise de sobrevida Kaplan-Meier para diferentes tipos de câncer.
 
@@ -29,7 +29,7 @@ Filtros customizados para seleção de subgrupos.
 
 Mock-ups de possíveis visualizações e modelos de pesquisa.
 
-Pré-requisitos
+# Pré-requisitos
 Python 3.8+
 
 Instale as dependências com:
