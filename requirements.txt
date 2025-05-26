@@ -10,8 +10,6 @@ lifelines
 pdfkit
 requests
 gdown
-image
 json
 numpy
 urllib
-folium
