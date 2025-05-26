@@ -15,9 +15,6 @@ import seaborn as sns
 from lifelines import KaplanMeierFitter
 from lifelines import KaplanMeierFitter
 from lifelines.plotting import add_at_risk_counts
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 from PIL import Image
 import time
 import plost
