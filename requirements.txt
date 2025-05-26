@@ -9,3 +9,4 @@ seaborn
 lifelines
 pdfkit
 requests
+gdown
