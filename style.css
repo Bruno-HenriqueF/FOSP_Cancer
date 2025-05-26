@@ -1,0 +1,125 @@
+/* Logo */
+/* Adapted from Zachary Blackwood */
+
+
+/* Card */
+/* Adapted from https://startbootstrap.com/theme/sb-admin-2 */
+
+/* Adicione no style.css */
+#govsp-topbarGlobal {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  z-index: 0;
+  position: relative;
+}
+
+.govsp-topo * {
+  color: #000;
+}
+
+body, html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+#govsp-topbarGlobal.blu-e {
+  background-color: #fff;
+}
+
+/* Outros estilos personalizados */
+
+div.css-1r6slb0.e1tzin5v2 {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    padding: 5% 5% 5% 10%;
+    border-radius: 5px;
+    
+    border-left: 0.5rem solid #9AD8E1 !important;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    
+}
+
+label.css-mkogse.e16fv1kl2 {
+    color: #36b9cc !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+
+/* Estilizando os contadores */
+.metric-card {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  border-left: 0.5rem solid #9AD8E1;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #36b9cc; /* Azul */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.metric-value {
+  margin: 10px 0 0;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333; /* Preto */
+}
+
+/* Move block container higher */
+div.block-container.css-18e3th9.egzxvld2 {
+  margin-top: -5em;
+}
+
+/* Contêiner principal para o mapa */
+.map-container {
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Título acima do mapa */
+.map-container h2 {
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+  color: #36b9cc; /* Azul */
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Wrapper para ajustar o tamanho do mapa */
+.map-wrapper {
+  margin: 0 auto;
+  border-radius: 8px;
+  overflow: hidden; /* Remove bordas excedentes do mapa */
+}
+
+/* Hide hamburger menu and footer */
+div.css-r698ls.e8zbici2 {
+  display: none;
+}
+
+footer.css-ipbk5a.egzxvld4 {
+  display: none;
+}
+
+footer.css-12gp8ed.eknhn3m4 {
+  display: none;
+}
+
+div.vg-tooltip-element {
+  display: none;
+}
+
+
