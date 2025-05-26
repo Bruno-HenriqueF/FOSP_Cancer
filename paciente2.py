@@ -25,13 +25,23 @@ from streamlit_folium import st_folium
 import pyarrow
 import requests
 from bs4 import BeautifulSoup
+import gdown
 
 
 
 
 # Caminho para os arquivos
-pacientes_geral = r'G:\Meu Drive\Iniciação Científica\pacigeral_12_23_transformed_2024.csv'
-excel_path = r"G:\Meu Drive\Iniciação Científica\RELATORIO_DTB_BRASIL_MUNICIPIO.xlsx"
+
+url = 'https://drive.google.com/uc?export=download&id=11TR33j1gMLvVlOG8P9DtMUs6AZPq9BLP'
+output = 'pacigeral_12_23_transformed_2024.csv'
+gdown.download(url, output, quiet=False)
+
+# Aqui, pacientes_geral é o nome do arquivo, uma string
+pacientes_geral = output
+
+# Agora sim, leia o CSV corretamente
+df = pd.read_csv(pacientes_geral, dtype=str, low_memory=False)
+##excel_path = r"G:\Meu Drive\Iniciação Científica\RELATORIO_DTB_BRASIL_MUNICIPIO.xlsx"
 
 
 # Configurar o título e layout da página
@@ -87,7 +97,7 @@ with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 df = pd.read_csv(pacientes_geral)
-#%%
+
 print("Colunas do DataFrame:", df.columns.tolist())
 print("hello")
 @st.cache_data
@@ -96,7 +106,7 @@ def load_data():
     df = pd.read_csv(pacientes_geral)
 
     # Leitura do arquivo Excel
-    municipios_df = pd.read_excel(excel_path)
+   ## municipios_df = pd.read_excel(excel_path)
 
     
 
