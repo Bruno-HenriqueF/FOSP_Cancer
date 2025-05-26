@@ -17,11 +17,7 @@ from lifelines import KaplanMeierFitter
 from lifelines.plotting import add_at_risk_counts
 from PIL import Image
 import time
-import plost
 from streamlit_folium import st_folium
-import pyarrow
-import requests
-from bs4 import BeautifulSoup
 import gdown
 
 
