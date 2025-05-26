@@ -13,3 +13,4 @@ gdown
 json
 numpy
 urllib
+plotly.express
