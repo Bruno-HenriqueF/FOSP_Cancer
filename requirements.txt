@@ -1,6 +1,6 @@
 folium
 pandas
-pip install plotly
+plotly
 streamlit
 streamlit-folium
 Pillow
