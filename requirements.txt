@@ -1,7 +1,7 @@
 folium
 pandas
-plotly
 streamlit
+plotly
 streamlit-folium
 Pillow
 matplotlib
