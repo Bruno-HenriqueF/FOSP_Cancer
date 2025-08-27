@@ -1,4 +1,3 @@
-#%%
 import folium.features
 import folium.map
 import pandas as pd
@@ -1010,3 +1009,4 @@ def main():
 # Executa a aplicação
 if __name__ == "__main__":
     main()
+
