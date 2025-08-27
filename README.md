@@ -32,10 +32,6 @@ Mock-ups de possíveis visualizações e modelos de pesquisa.
 # Pré-requisitos
 Python 3.8+
 
-Instale as dependências com:
-
-bash
-pip install -r requirements.txt
 Principais bibliotecas utilizadas:
 
 streamlit
