@@ -77,7 +77,7 @@ st.markdown(
 st.markdown(
     """
     <h1 style="display: flex; align-items: center; margin-top: 150px;">  <!-- Ajuste para empurrar o título abaixo da faixa -->
-        <img src="https://fosp.saude.sp.gov.br/wp-content/uploads/FOSP_50_anos_LOGO_ADAPTADO_bg_transparente-90x124-2.webp" alt="Logo" style="width: 90px; height: 124px; margin-right: 30px;">
+        <img src="https://fosp.saude.sp.gov.br/wp-content/uploads/cropped-logotipo-fosp-sem_fundo.webp" alt="Logo FOSP" style="width: 90px; height: 124px; margin-right: 30px;">
         Fundação Oncocentro de São Paulo
     </h1>
     """, 
@@ -1009,6 +1009,7 @@ def main():
 # Executa a aplicação
 if __name__ == "__main__":
     main()
+
 
 
 
