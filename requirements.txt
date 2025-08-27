@@ -10,8 +10,4 @@ lifelines
 pdfkit
 requests
 gdown
-json
 numpy
-urllib
-plotly.express
-plotly
