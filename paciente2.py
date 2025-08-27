@@ -990,7 +990,6 @@ def page_3():
     
 
     st.image(
-    st.image(
     "https://raw.githubusercontent.com/Bruno-HenriqueF/FOSP_Cancer/main/modelagem1.jpg",
     caption="Modelo de Pesquisa",
     use_container_width=True
@@ -1010,5 +1009,6 @@ def main():
 # Executa a aplicação
 if __name__ == "__main__":
     main()
+
 
 
