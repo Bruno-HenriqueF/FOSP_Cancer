@@ -983,17 +983,18 @@ def page_3():
     
     st.header("Mock-ups Potenciais Visualizações")
     st.image(
-    "G:/Meu Drive/Iniciação Científica/modelagem1.jpg",  # Caminho para a imagem
-    caption="Modelo de Pesquisa",  # Legenda da imagem (opcional)
-    use_container_width=True  # Ajusta a imagem à largura da página
-    )
+    "https://raw.githubusercontent.com/Bruno-HenriqueF/FOSP_Cancer/main/modelagem1.jpg",
+    caption="Modelo de Pesquisa",
+    use_container_width=True
+)
     
 
     st.image(
-    "G:/Meu Drive/Iniciação Científica/modelagem2.jpg",  # Caminho atualizado para a nova imagem
-    caption="Modelo de Pesquisa",  # Legenda da imagem (opcional)
-    use_container_width=True  # Ajusta a imagem ao container
-    )
+    st.image(
+    "https://raw.githubusercontent.com/Bruno-HenriqueF/FOSP_Cancer/main/modelagem1.jpg",
+    caption="Modelo de Pesquisa",
+    use_container_width=True
+)
     # Função principal
 def main():
     st.sidebar.title("Navegação")
@@ -1009,4 +1010,5 @@ def main():
 # Executa a aplicação
 if __name__ == "__main__":
     main()
+
 
